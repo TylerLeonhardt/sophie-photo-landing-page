@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5df0dab9.css",
-    "main.js": "/static/js/main.eca47a42.js",
+    "main.js": "/static/js/main.9fc35452.js",
     "static/media/sophietree.jpg": "/static/media/sophietree.aab9043b49b32ca66207.jpg",
     "static/media/brooklynandamber.jpg": "/static/media/brooklynandamber.c2cfafd651f4f7d9a425.jpg",
     "static/media/mimi.jpg": "/static/media/mimi.bb9269cb1053d924b5c2.jpg",
@@ -40,10 +40,10 @@
     "static/media/cormorant-garamond-vietnamese-700-normal.woff2": "/static/media/cormorant-garamond-vietnamese-700-normal.4bcb8c9ee072ed3c2a0a.woff2",
     "index.html": "/index.html",
     "main.5df0dab9.css.map": "/static/css/main.5df0dab9.css.map",
-    "main.eca47a42.js.map": "/static/js/main.eca47a42.js.map"
+    "main.9fc35452.js.map": "/static/js/main.9fc35452.js.map"
   },
   "entrypoints": [
     "static/css/main.5df0dab9.css",
-    "static/js/main.eca47a42.js"
+    "static/js/main.9fc35452.js"
   ]
 }
