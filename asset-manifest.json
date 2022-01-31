@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sophie-photo-landing-page/static/css/main.c1fac786.css",
-    "main.js": "/sophie-photo-landing-page/static/js/main.059d8f1b.js",
+    "main.js": "/sophie-photo-landing-page/static/js/main.1c59f380.js",
     "static/media/sophietree.jpg": "/sophie-photo-landing-page/static/media/sophietree.aab9043b49b32ca66207.jpg",
     "static/media/brooklynandamber.jpg": "/sophie-photo-landing-page/static/media/brooklynandamber.c2cfafd651f4f7d9a425.jpg",
     "static/media/mimi.jpg": "/sophie-photo-landing-page/static/media/mimi.bb9269cb1053d924b5c2.jpg",
@@ -40,10 +40,10 @@
     "static/media/cormorant-garamond-vietnamese-700-normal.woff2": "/sophie-photo-landing-page/static/media/cormorant-garamond-vietnamese-700-normal.4bcb8c9ee072ed3c2a0a.woff2",
     "index.html": "/sophie-photo-landing-page/index.html",
     "main.c1fac786.css.map": "/sophie-photo-landing-page/static/css/main.c1fac786.css.map",
-    "main.059d8f1b.js.map": "/sophie-photo-landing-page/static/js/main.059d8f1b.js.map"
+    "main.1c59f380.js.map": "/sophie-photo-landing-page/static/js/main.1c59f380.js.map"
   },
   "entrypoints": [
     "static/css/main.c1fac786.css",
-    "static/js/main.059d8f1b.js"
+    "static/js/main.1c59f380.js"
   ]
 }
