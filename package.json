@@ -12,7 +12,7 @@
     "react-icons": "^4.8.0",
     "react-scripts": "5.0.0",
     "react-scroll": "^1.8.9",
-    "styled-components": "^5.3.3"
+    "styled-components": "^5.3.11"
   },
   "scripts": {
     "start": "react-scripts start",
