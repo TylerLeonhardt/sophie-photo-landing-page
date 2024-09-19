@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 import styled from 'styled-components';
 import SophieImg from '../assets/images/sophietree.jpg';
 import AmberImg from '../assets/images/amberlaying.jpg';
-import MimiImg from '../assets/images/mimi.jpg';
+import SamImg from '../assets/images/sam4.png';
 import PrimaryButton from './buttons/PrimaryButton';
 import ParagraphText from './paragraphTexts/ParagraphText';
 import HeroTitle from './titles/HeroTitle';
@@ -55,7 +55,7 @@ const HeroSectionStyles = styled.div`
   }
   @media only screen and (max-width: 768px) {
     background-image: ${({ theme: { theme } }) =>
-      theme === themeList.light ? `url(${SophieImg})` : `url(${MimiImg})`};
+      theme === themeList.light ? `url(${SophieImg})` : `url(${SamImg})`};
     .hero__wrapper {
       flex-direction: column;
     }
