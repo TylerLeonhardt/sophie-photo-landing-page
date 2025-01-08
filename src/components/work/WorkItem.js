@@ -6,10 +6,12 @@ import ParagraphText from '../paragraphTexts/ParagraphText';
 const WorkMemberItemStyles = styled.div`
   .workMember__img {
     margin-bottom: 2rem;
-    img {
-      max-height: 313px;
-      border-radius: 18px;
-    }
+    width: 100%;
+    height: 313px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
   }
   .workMember__name {
     font-weight: 500;
@@ -20,9 +22,7 @@ const WorkMemberItemStyles = styled.div`
   @media only screen and (max-width: 768px) {
     .workMember__img {
       margin-bottom: 1rem;
-      img {
-        max-width: 250px;
-      }
+      height: 400px;
     }
   }
 `;
@@ -30,9 +30,10 @@ const WorkMemberItemStyles = styled.div`
 function WorkMemberItem({ img, name, title }) {
   return (
     <WorkMemberItemStyles>
-      <div className="workMember__img">
-        <img src={img} alt="hello" />
-      </div>
+      <div
+        className="workMember__img"
+        style={{ backgroundImage: `url(${img})` }}
+      />
       <ParagraphText className="workMember__name">{name}</ParagraphText>
       <ParagraphText className="workMember__subtitle">{title}</ParagraphText>
     </WorkMemberItemStyles>
