@@ -7,6 +7,7 @@ const WorkMemberItemStyles = styled.div`
   .workMember__img {
     margin-bottom: 2rem;
     img {
+      max-height: 313px;
       border-radius: 18px;
     }
   }

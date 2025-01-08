@@ -5,17 +5,11 @@ import PrimaryButton from './buttons/PrimaryButton';
 import ParagraphText from './paragraphTexts/ParagraphText';
 import SectionTitle from './titles/SectionTitle';
 import themeList from '../data/themeList';
-import AmberImg from '../assets/images/ambermirror.jpg';
-import SophieImg from '../assets/images/sophienails.jpg';
-import SophieFlowersImg from '../assets/images/sophieflowers.jpg';
-import KrisImg from '../assets/images/brooklynwindow.jpg';
+import authenticSelf from '../assets/images/authenticSelf.jpg';
 
 const AboutStyles = styled.div`
-  background-image: ${({ theme: { theme } }) =>
-    theme === themeList.light
-      ? `url(${SophieImg})`
-      : `url(${SophieFlowersImg})`};
-  background-position: center;
+  background-image: url(${authenticSelf});
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10rem 0;
@@ -57,10 +51,20 @@ const AboutStyles = styled.div`
     flex: 3;
   }
   @media only screen and (max-width: 768px) {
-    background-image: ${({ theme: { theme } }) =>
-      theme === themeList.light ? `url(${AmberImg})` : `url(${KrisImg})`};
     .about__wrapper {
       flex-direction: column;
+    }
+    .about__subtitle {
+      color: var(--lightBlue_1);
+      text-shadow: 0 0 5px var(--black);
+    }
+    .about__title {
+      color: var(--lightBlue_1);
+      text-shadow: 0 0 5px var(--black);
+    }
+    .about__desc {
+      color: var(--lightBlue_1);
+      text-shadow: 0 0 5px var(--black);
     }
     .about__info {
       color: var(--lightBlue_1);

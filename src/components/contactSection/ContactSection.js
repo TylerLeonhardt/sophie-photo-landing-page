@@ -48,14 +48,18 @@ function ContactSection() {
             <SectionTitle>Contact Me</SectionTitle>
             <ParagraphText>
               Contact me on{' '}
-              <a href="https://www.instagram.com/sophiedituri">Instagram</a> or
-              here to discuss scheduling a shoot, theme ideas, shoot package
+              <a href="https://www.instagram.com/sophiedituriphoto">
+                Instagram
+              </a>{' '}
+              or here to discuss scheduling a shoot, theme ideas, shoot package
               rates, editorials, and more.
             </ParagraphText>
             <br />
-            <ParagraphText>$120 - Mini photoshoot (45min shoot)</ParagraphText>
-            <ParagraphText>$160 - Full photoshoot (2hr shoot)</ParagraphText>
-            <ParagraphText>$160 - Engagement photoshoot (2hr)</ParagraphText>
+            <ParagraphText>$100/hr - Engagement photoshoot</ParagraphText>
+            <ParagraphText>$150/hr - Wedding photoshoot</ParagraphText>
+            <ParagraphText>
+              Looking other types of photoshoots? Contact me.
+            </ParagraphText>
             <br />
             <ParagraphText>
               * all shoots include editing/retouching *

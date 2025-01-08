@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import styled from 'styled-components';
-import SophieImg from '../assets/images/sophietree.jpg';
-import AmberImg from '../assets/images/amberlaying.jpg';
-import SamImg from '../assets/images/sam4.png';
+import hero from '../assets/images/hero.jpg';
+import heroNarrowDark from '../assets/images/heroNarrowDark.jpg';
 import PrimaryButton from './buttons/PrimaryButton';
 import ParagraphText from './paragraphTexts/ParagraphText';
 import HeroTitle from './titles/HeroTitle';
@@ -16,7 +15,7 @@ const HeroSectionStyles = styled.div`
   align-items: center;
   justify-content: center;
   background-image: ${({ theme: { theme } }) =>
-    theme === themeList.light ? `url(${SophieImg})` : `url(${AmberImg})`};
+    theme === themeList.light ? `url(${hero})` : `url(${hero})`};
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,7 +54,7 @@ const HeroSectionStyles = styled.div`
   }
   @media only screen and (max-width: 768px) {
     background-image: ${({ theme: { theme } }) =>
-      theme === themeList.light ? `url(${SophieImg})` : `url(${SamImg})`};
+      theme === themeList.light ? `url(${hero})` : `url(${heroNarrowDark})`};
     .hero__wrapper {
       flex-direction: column;
     }

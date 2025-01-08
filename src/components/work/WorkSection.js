@@ -4,9 +4,9 @@ import ParagraphText from '../paragraphTexts/ParagraphText';
 import SectionTitle from '../titles/SectionTitle';
 import WorkMemberItem from './WorkItem';
 // work member images
-import harshAndMedhirImg from '../../assets/images/harshandmedhir.jpg';
-import workMember2 from '../../assets/images/brooklynandamber.jpg';
-import workMember3 from '../../assets/images/jenniepole.jpg';
+import engagement from '../../assets/images/engagement.jpg';
+import intimates from '../../assets/images/intimates.jpg';
+import wedding from '../../assets/images/wedding.jpg';
 
 const WorkSectionStyles = styled.div`
   padding: 10rem 0;
@@ -58,19 +58,19 @@ function WorkSection() {
           </div>
           <div className="work__members">
             <WorkMemberItem
-              img={harshAndMedhirImg}
-              name="Harsh &amp; Medhir"
+              img={engagement}
+              name="Philip &amp; Ruby"
               title="Engagement"
             />
             <WorkMemberItem
-              img={workMember2}
+              img={intimates}
               name="Brooklyn & Amber"
               title="Intimates"
             />
             <WorkMemberItem
-              img={workMember3}
-              name="Jennie"
-              title="Sport &amp; Dance"
+              img={wedding}
+              name="Elena & Justin"
+              title="Wedding"
             />
           </div>
         </div>

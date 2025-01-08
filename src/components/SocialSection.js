@@ -39,7 +39,7 @@ function SocialSection() {
       <div className="container">
         <div className="social__wrapper">
           <SectionTitle className="social__title">More of my work</SectionTitle>
-          <a href="https://www.instagram.com/sophiedituri/">
+          <a href="https://www.instagram.com/sophiedituriphoto/">
             <svg width="48px" height="12px" viewBox="0 0 24 24">
               <g
                 id="brand"
