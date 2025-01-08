@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b2d8f4d8.css",
-    "main.js": "/static/js/main.7190ec78.js",
+    "main.js": "/static/js/main.f227d69a.js",
     "static/media/authenticSelf.jpg": "/static/media/authenticSelf.be3c4ec6baf6ad79f4ee.jpg",
     "static/media/intimates.jpg": "/static/media/intimates.c2cfafd651f4f7d9a425.jpg",
     "static/media/wedding.jpg": "/static/media/wedding.40bbef0cee9eaa82b05c.jpg",
@@ -36,10 +36,10 @@
     "static/media/cormorant-garamond-vietnamese-700-normal.woff2": "/static/media/cormorant-garamond-vietnamese-700-normal.02e0a24881723d90ff6a.woff2",
     "index.html": "/index.html",
     "main.b2d8f4d8.css.map": "/static/css/main.b2d8f4d8.css.map",
-    "main.7190ec78.js.map": "/static/js/main.7190ec78.js.map"
+    "main.f227d69a.js.map": "/static/js/main.f227d69a.js.map"
   },
   "entrypoints": [
     "static/css/main.b2d8f4d8.css",
-    "static/js/main.7190ec78.js"
+    "static/js/main.f227d69a.js"
   ]
 }
