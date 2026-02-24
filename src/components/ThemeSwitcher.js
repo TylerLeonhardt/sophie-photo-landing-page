@@ -57,15 +57,25 @@ const ThemeSwitcherStyles = styled.div`
 
 export default function ThemeSwitcher() {
   const { theme, toggleTheme } = useContext(ThemeContext);
+  const isDarkTheme = theme === themeList.dark;
+  const themeToggleLabel = isDarkTheme
+    ? 'Switch to light mode'
+    : 'Switch to dark mode';
+
   return (
     <ThemeSwitcherStyles>
       <input
         type="checkbox"
         id="switcher"
         onChange={toggleTheme}
-        checked={theme === themeList.dark}
+        checked={isDarkTheme}
+        aria-label={themeToggleLabel}
       />
-      <label htmlFor="switcher">
+      <label
+        htmlFor="switcher"
+        title={themeToggleLabel}
+        aria-label={themeToggleLabel}
+      >
         <div className="icon">
           <FiSun />
         </div>

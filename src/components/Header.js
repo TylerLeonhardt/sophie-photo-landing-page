@@ -214,6 +214,8 @@ export default function Header() {
                 className="menuIcon"
                 tabIndex="0"
                 role="button"
+                title="Open navigation menu"
+                aria-label="Open navigation menu"
                 onKeyDown={() => setIsNavOpen(true)}
                 onClick={() => setIsNavOpen(true)}
               >
